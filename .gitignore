@@ -2,11 +2,13 @@ Makefile
 local/
 inc/
 *.c
+!src/ppport.h
+!lib/Digest/BLAKE2b.xs
+!lib/Digest/BLAKE2s.xs
 !blake2/sse/*.c
 !blake2/ref/*.c
 !stringencoders/*.c
 *.o
-ppport.h
 *.sw[po]
 *.bak
 *.old
@@ -21,7 +23,7 @@ META.json
 META.yml
 
 # generated files
-BLAKE2[sb]*.xs
+src/BLAKE2[sb]*.xs
 BLAKE2[sb]*.pm
 stringencoders/config.h
 
