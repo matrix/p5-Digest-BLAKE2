@@ -34,9 +34,9 @@ DESCRIPTION
     33% less RAM than SHA-2 or SHA-3 on low-end systems.
 
     BLAKE2 comes in two flavors. BLAKE2b is optimized for 64-bit
-    platforms—including NEON-enabled ARMs—and produces digests of any
-    size between 1 and 64 bytes. BLAKE2s is optimized for 8- to 32-bit
-    platforms and produces digests of any size between 1 and 32 bytes.
+    platforms-including NEON-enabled ARMs-and produces digests of any size
+    between 1 and 64 bytes. BLAKE2s is optimized for 8- to 32-bit platforms
+    and produces digests of any size between 1 and 32 bytes.
 
     This interface follows the conventions set forth by the "Digest" module.
 
@@ -77,12 +77,12 @@ SEE ALSO
     "Digest::BLAKE2s"
 
 AUTHOR
-    Tasuku SUENAGA a.k.a. gunyarakun <tasuku-s-cpan ATAT titech.ac>
-    Gabriele Gristina a.k.a. matrix
+    Tasuku SUENAGA a.k.a. gunyarakun <tasuku-s-cpan ATAT titech.ac> Gabriele
+    Gristina a.k.a. matrix
 
 LICENSE
-    Copyright (C) Tasuku SUENAGA a.k.a. gunyarakun
-    Copyright (C) Gabriele Gristina a.k.a. matrix
+    Copyright (C) Tasuku SUENAGA a.k.a. gunyarakun Copyright (C) Gabriele
+    Gristina a.k.a. matrix
 
     This library is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
