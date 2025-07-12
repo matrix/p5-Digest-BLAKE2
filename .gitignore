@@ -3,6 +3,7 @@ local/
 inc/
 *.c
 !blake2/sse/*.c
+!blake2/ref/*.c
 !stringencoders/*.c
 *.o
 ppport.h
