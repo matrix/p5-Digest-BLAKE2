@@ -49,8 +49,10 @@ my @clean_files;
 
 my $build = Module::Build::Pluggable->new(
     module_name => 'Digest::BLAKE2',
-    dist_author =>
+    dist_author => [
       'Tasuku SUENAGA a.k.a. gunyarakun <tasuku-s-cpanATATtitech.ac>',
+      'Gabriele Gristina a.k.a. matrix',
+    ],
     license => 'perl',
 
     requires => {
@@ -77,8 +79,8 @@ my $build = Module::Build::Pluggable->new(
 
     resources => {
         repository => {
-            url  => 'git://github.com/gunyarakun/p5-Digest-BLAKE2.git',
-            web  => 'http://github.com/gunyarakun/p5-Digest-BLAKE2',
+            url  => 'git://github.com/matrix/p5-Digest-BLAKE2.git',
+            web  => 'http://github.com/matrix/p5-Digest-BLAKE2',
             type => 'git',
         }
     },

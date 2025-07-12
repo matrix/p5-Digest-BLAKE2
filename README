@@ -78,9 +78,11 @@ SEE ALSO
 
 AUTHOR
     Tasuku SUENAGA a.k.a. gunyarakun <tasuku-s-cpan ATAT titech.ac>
+    Gabriele Gristina a.k.a. matrix
 
 LICENSE
     Copyright (C) Tasuku SUENAGA a.k.a. gunyarakun
+    Copyright (C) Gabriele Gristina a.k.a. matrix
 
     This library is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.

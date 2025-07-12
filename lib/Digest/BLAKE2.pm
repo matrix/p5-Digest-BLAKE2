@@ -3,7 +3,7 @@ package Digest::BLAKE2;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use parent qw/Exporter Digest::base/;
 
@@ -90,7 +90,7 @@ The cryptographic hash function BLAKE2 is an improved version of the SHA-3 final
 Like BLAKE or SHA-3, BLAKE2 offers the highest security, yet is fast as MD5 on 64-bit platforms and requires at least 33% less RAM than SHA-2 or SHA-3 on low-end systems.
 
 BLAKE2 comes in two flavors.
-BLAKE2b is optimized for 64-bit platforms—including NEON-enabled ARMs—and produces digests of any size between 1 and 64 bytes.
+BLAKE2b is optimized for 64-bit platforms-including NEON-enabled ARMs-and produces digests of any size between 1 and 64 bytes.
 BLAKE2s is optimized for 8- to 32-bit platforms and produces digests of any size between 1 and 32 bytes.
 
 This interface follows the conventions set forth by the C<Digest> module.
@@ -145,10 +145,12 @@ C<Digest::BLAKE2s>
 =head1 AUTHOR
 
 Tasuku SUENAGA a.k.a. gunyarakun E<lt>tasuku-s-cpan ATAT titech.acE<gt>
+Gabriele Gristina a.k.a. matrix
 
 =head1 LICENSE
 
 Copyright (C) Tasuku SUENAGA a.k.a. gunyarakun
+Copyright (C) Gabriele Gristina a.k.a. matrix
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

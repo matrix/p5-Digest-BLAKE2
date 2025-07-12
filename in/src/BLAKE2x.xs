@@ -7,7 +7,11 @@
 
 #undef ALIGN
 #undef LIKELY
+#if defined(__x86_64__) || defined(_M_X64) || defined(__i386__) || defined(_M_IX86)
 #include "../blake2/sse/blake2x.c"
+#else
+#include "../blake2/ref/blake2x-ref.c"
+#endif
 #include "modp_b16.h"
 #include "modp_b64.h"
 #include "modp_b64w.h"
