@@ -23,7 +23,7 @@ META.json
 META.yml
 
 # generated files
-src/BLAKE2[sb]*.xs
+lib/Digest/BLAKE2[sb]*.xs
 BLAKE2[sb]*.pm
 stringencoders/config.h
 
